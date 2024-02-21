@@ -394,7 +394,7 @@
               class="dropdown-toggle dropdown-toggle-nocaret"
               data-bs-toggle="dropdown"
             >
-              <div class="d-flex items-center">
+              <div class="d-flex align-items-center">
                 <img
                   src="assets/images/avatars/01.png"
                   class="p-1 border"
@@ -405,6 +405,7 @@
                   <p class="mb-0 fs2">Eleanor Pena</p>
                   <small class="text-muted mt-0 fmon"> Pharmacy:25dsaf84</small>
                 </div>
+                <img class="mx-4" src="./assets/images/megaIcons/select.png" alt="" width="10px" height="10px">
               </div>
             </a>
             <div class="dropdown-menu dropdown-user dropdown-menu-end shadow">
@@ -412,12 +413,13 @@
                 <div class="text-center">
                   <img
                     src="assets/images/avatars/01.png"
-                    class="rounded-circle p-1 shadow mb-3"
+                    class="p-1 shadow mb-3"
                     width="90"
                     height="90"
                     alt=""
                   />
-                  <h5 class="user-name mb-0 fw-bold">Hello, Jhon</h5>
+                  <h5 class="user-name mb-0 fw-bold">Eleanor Pena</h5>
+                  <small class="text-muted mt-0 fmon"> Pharmacy:25dsaf84</small>
                 </div>
               </a>
               <hr class="dropdown-divider" />
@@ -426,28 +428,7 @@
                 href="./profile.html"
                 ><i class="material-icons-outlined">person_outline</i>Profile</a
               >
-              <a
-                class="dropdown-item d-flex align-items-center gap-2 py-2"
-                href="javascript:;"
-                ><i class="material-icons-outlined">local_bar</i>Setting</a
-              >
-              <a
-                class="dropdown-item d-flex align-items-center gap-2 py-2"
-                href="javascript:;"
-                ><i class="material-icons-outlined">dashboard</i>Dashboard</a
-              >
-              <a
-                class="dropdown-item d-flex align-items-center gap-2 py-2"
-                href="javascript:;"
-                ><i class="material-icons-outlined">account_balance</i
-                >Earning</a
-              >
-              <a
-                class="dropdown-item d-flex align-items-center gap-2 py-2"
-                href="javascript:;"
-                ><i class="material-icons-outlined">cloud_download</i
-                >Downloads</a
-              >
+
               <hr class="dropdown-divider" />
               <a
                 class="dropdown-item d-flex align-items-center gap-2 py-2"
@@ -504,62 +485,77 @@
     <!--end top header-->
 
     <!--start sidebar-->
-    <aside class="sidebar-wrapper">
-      <div class="sidebar-header">
-        <div class="logo-icon">
-          <img src="assets/images/dplogo.png" class="" width="150px" alt="" />
+      <aside class="sidebar-wrapper">
+        <div class="sidebar-header">
+          <div class="logo-icon">
+            <img src="assets/images/dplogo.png" class="" width="150px" alt="">
+          </div>
+          <div class="logo-name flex-grow-1">
+           
+          </div>
+          <div class="sidebar-close">
+            <span class="material-icons-outlined">close</span>
+          </div>
         </div>
-        <div class="logo-name flex-grow-1"></div>
-        <div class="sidebar-close">
-          <span class="material-icons-outlined">close</span>
+        <div class="sidebar-nav" data-simplebar="true">
+          
+            <!--navigation-->
+            <ul class="metismenu" id="sidenav">
+              <li>
+                <a href="./index.html" class="">
+                 <div class="icnonDiv">
+                  <img class="img1" src="./assets/images/megaIcons/oi.png" alt="">
+                  <img class="img2" src="./assets/images/megaIcons/ow.png" alt="">
+                 </div>
+                  <div class="menu-title">OverView</div>
+                </a>
+                
+              </li>
+              <li>
+                <a href="./doctor.html" class="">
+                  <div class="icnonDiv">
+                    <img class="img1" src="./assets/images/megaIcons/di.png" alt="">
+                    <img class="img2" src="./assets/images/megaIcons/dow.png" alt="">
+                   </div>
+                  <div class="menu-title">Doctors</div>
+                </a>
+                
+              </li>
+              <li>
+                <a href="./patient.html" class="">
+                  <div class="icnonDiv">
+                    <img class="img1" src="./assets/images/megaIcons/pi.png" alt="">
+                    <img class="img2" src="./assets/images/megaIcons/piw.png" alt="">
+                   </div>
+                  <div class="menu-title">Patients</div>
+                </a>
+                
+              </li>
+              <li>
+                <a href="./drivers.html" class="">
+                  <div class="icnonDiv">
+                    <img class="img1" src="./assets/images/megaIcons/dri.png" alt="">
+                    <img class="img2" src="./assets/images/megaIcons/ord.png" alt="">
+                   </div>
+                  <div class="menu-title">Drivers</div>
+                </a>
+                
+              </li>
+              <li>
+                <a href="./orders.html" class="">
+                  <div class="icnonDiv">
+                    <img class="img1" src="./assets/images/megaIcons/ori.png" alt="">
+                    <img class="img2" src="./assets/images/megaIcons/orw.png" alt="">
+                   </div>
+                  <div class="menu-title">Orders</div>
+                </a>
+                
+              </li>
+            
+             </ul>
+            <!--end navigation-->
         </div>
-      </div>
-      <div class="sidebar-nav" data-simplebar="true">
-        <!--navigation-->
-        <ul class="metismenu" id="sidenav">
-          <li>
-            <a href="./index.html" class="">
-              <div class="parent-icon">
-                <i class="material-icons-outlined">home</i>
-              </div>
-              <div class="menu-title">OverView</div>
-            </a>
-          </li>
-          <li>
-            <a href="./doctor.html" class="">
-              <div class="parent-icon">
-                <i class="material-icons-outlined">home</i>
-              </div>
-              <div class="menu-title">Doctors</div>
-            </a>
-          </li>
-          <li>
-            <a href="./patient.html" class="">
-              <div class="parent-icon">
-                <i class="material-icons-outlined">home</i>
-              </div>
-              <div class="menu-title">Patients</div>
-            </a>
-          </li>
-          <li>
-            <a href="./drivers.html" class="">
-              <div class="parent-icon">
-                <i class="material-icons-outlined">home</i>
-              </div>
-              <div class="menu-title">Drivers</div>
-            </a>
-          </li>
-          <li>
-            <a href="./orders.html" class="">
-              <div class="parent-icon">
-                <i class="material-icons-outlined">home</i>
-              </div>
-              <div class="menu-title">Orders</div>
-            </a>
-          </li>
-        </ul>
-        <!--end navigation-->
-      </div>
+        
     </aside>
     <!--end sidebar-->
 
@@ -567,12 +563,19 @@
     <main class="main-wrapper">
       <div class="main-content">
         <!-- orders section -->
-        <h3 class="fmon">Orders</h3>
+        <div class="d-flex justify-content-between flex-wrap">
+          <h3 class="fmon">Orders</h3>
+          <div class="oCard fselect">
+            <select class="form-select fInp bg-transparent">
+              <option value="new order">new order</option>
+            </select>
+          </div>
+        </div>
         <div class="my-2">
           <div class="row">
             <div class="col-md-4 my-2">
               <div class="card p-2 oCard">
-                <div class="my-2">
+                <div class="m-2">
                   <div class="d-flex">
                     <img
                       src="./assets/images/avatars/04.png"
@@ -586,19 +589,19 @@
                   </div>
                   <div class="mt-3">
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Order Date</p>
+                      <p class="fmon fs7 m-0">Order Date</p>
 
-                      <p class="fmon fs8">11/3/23</p>
+                      <p class="fmon fs8 m-0">11/3/23</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Medicine</p>
+                      <p class="fmon fs7 m-0">Medicine</p>
 
-                      <p class="fmon fs8">Panadol</p>
+                      <p class="fmon fs8 m-0">Panadol</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Status</p>
+                      <p class="fmon fs7 m-0">Status</p>
 
-                      <p class="fmon fs8">active</p>
+                      <p class="fmon fs8 m-0">active</p>
                     </div>
                   </div>
                   <div class="mt-2 d-flex justify-content-end">
@@ -615,7 +618,7 @@
             </div>
             <div class="col-md-4 my-2">
               <div class="card p-2 oCard">
-                <div class="my-2">
+                <div class="m-2">
                   <div class="d-flex">
                     <img
                       src="./assets/images/avatars/04.png"
@@ -629,19 +632,19 @@
                   </div>
                   <div class="mt-3">
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Order Date</p>
+                      <p class="fmon fs7 m-0">Order Date</p>
 
-                      <p class="fmon fs8">11/3/23</p>
+                      <p class="fmon fs8 m-0">11/3/23</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Medicine</p>
+                      <p class="fmon fs7 m-0">Medicine</p>
 
-                      <p class="fmon fs8">Panadol</p>
+                      <p class="fmon fs8 m-0">Panadol</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Status</p>
+                      <p class="fmon fs7 m-0">Status</p>
 
-                      <p class="fmon fs8">active</p>
+                      <p class="fmon fs8 m-0">active</p>
                     </div>
                   </div>
                   <div class="mt-2 d-flex justify-content-end">
@@ -658,7 +661,7 @@
             </div>
             <div class="col-md-4 my-2">
               <div class="card p-2 oCard">
-                <div class="my-2">
+                <div class="m-2">
                   <div class="d-flex">
                     <img
                       src="./assets/images/avatars/04.png"
@@ -672,19 +675,19 @@
                   </div>
                   <div class="mt-3">
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Order Date</p>
+                      <p class="fmon fs7 m-0">Order Date</p>
 
-                      <p class="fmon fs8">11/3/23</p>
+                      <p class="fmon fs8 m-0">11/3/23</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Medicine</p>
+                      <p class="fmon fs7 m-0">Medicine</p>
 
-                      <p class="fmon fs8">Panadol</p>
+                      <p class="fmon fs8 m-0">Panadol</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Status</p>
+                      <p class="fmon fs7 m-0">Status</p>
 
-                      <p class="fmon fs8">active</p>
+                      <p class="fmon fs8 m-0">active</p>
                     </div>
                   </div>
                   <div class="mt-2 d-flex justify-content-end">
@@ -701,7 +704,7 @@
             </div>
             <div class="col-md-4 my-2">
               <div class="card p-2 oCard">
-                <div class="my-2">
+                <div class="m-2">
                   <div class="d-flex">
                     <img
                       src="./assets/images/avatars/04.png"
@@ -715,19 +718,19 @@
                   </div>
                   <div class="mt-3">
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Order Date</p>
+                      <p class="fmon fs7 m-0">Order Date</p>
 
-                      <p class="fmon fs8">11/3/23</p>
+                      <p class="fmon fs8 m-0">11/3/23</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Medicine</p>
+                      <p class="fmon fs7 m-0">Medicine</p>
 
-                      <p class="fmon fs8">Panadol</p>
+                      <p class="fmon fs8 m-0">Panadol</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Status</p>
+                      <p class="fmon fs7 m-0">Status</p>
 
-                      <p class="fmon fs8">active</p>
+                      <p class="fmon fs8 m-0">active</p>
                     </div>
                   </div>
                   <div class="mt-2 d-flex justify-content-end">
@@ -744,7 +747,7 @@
             </div>
             <div class="col-md-4 my-2">
               <div class="card p-2 oCard">
-                <div class="my-2">
+                <div class="m-2">
                   <div class="d-flex">
                     <img
                       src="./assets/images/avatars/04.png"
@@ -758,19 +761,19 @@
                   </div>
                   <div class="mt-3">
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Order Date</p>
+                      <p class="fmon fs7 m-0">Order Date</p>
 
-                      <p class="fmon fs8">11/3/23</p>
+                      <p class="fmon fs8 m-0">11/3/23</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Medicine</p>
+                      <p class="fmon fs7 m-0">Medicine</p>
 
-                      <p class="fmon fs8">Panadol</p>
+                      <p class="fmon fs8 m-0">Panadol</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Status</p>
+                      <p class="fmon fs7 m-0">Status</p>
 
-                      <p class="fmon fs8">active</p>
+                      <p class="fmon fs8 m-0">active</p>
                     </div>
                   </div>
                   <div class="mt-2 d-flex justify-content-end">
@@ -787,7 +790,7 @@
             </div>
             <div class="col-md-4 my-2">
               <div class="card p-2 oCard">
-                <div class="my-2">
+                <div class="m-2">
                   <div class="d-flex">
                     <img
                       src="./assets/images/avatars/04.png"
@@ -801,19 +804,19 @@
                   </div>
                   <div class="mt-3">
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Order Date</p>
+                      <p class="fmon fs7 m-0">Order Date</p>
 
-                      <p class="fmon fs8">11/3/23</p>
+                      <p class="fmon fs8 m-0">11/3/23</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Medicine</p>
+                      <p class="fmon fs7 m-0">Medicine</p>
 
-                      <p class="fmon fs8">Panadol</p>
+                      <p class="fmon fs8 m-0">Panadol</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Status</p>
+                      <p class="fmon fs7 m-0">Status</p>
 
-                      <p class="fmon fs8">active</p>
+                      <p class="fmon fs8 m-0">active</p>
                     </div>
                   </div>
                   <div class="mt-2 d-flex justify-content-end">
@@ -830,7 +833,7 @@
             </div>
             <div class="col-md-4 my-2">
               <div class="card p-2 oCard">
-                <div class="my-2">
+                <div class="m-2">
                   <div class="d-flex">
                     <img
                       src="./assets/images/avatars/04.png"
@@ -844,19 +847,19 @@
                   </div>
                   <div class="mt-3">
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Order Date</p>
+                      <p class="fmon fs7 m-0">Order Date</p>
 
-                      <p class="fmon fs8">11/3/23</p>
+                      <p class="fmon fs8 m-0">11/3/23</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Medicine</p>
+                      <p class="fmon fs7 m-0">Medicine</p>
 
-                      <p class="fmon fs8">Panadol</p>
+                      <p class="fmon fs8 m-0">Panadol</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Status</p>
+                      <p class="fmon fs7 m-0">Status</p>
 
-                      <p class="fmon fs8">active</p>
+                      <p class="fmon fs8 m-0">active</p>
                     </div>
                   </div>
                   <div class="mt-2 d-flex justify-content-end">
@@ -873,7 +876,7 @@
             </div>
             <div class="col-md-4 my-2">
               <div class="card p-2 oCard">
-                <div class="my-2">
+                <div class="m-2">
                   <div class="d-flex">
                     <img
                       src="./assets/images/avatars/04.png"
@@ -887,19 +890,19 @@
                   </div>
                   <div class="mt-3">
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Order Date</p>
+                      <p class="fmon fs7 m-0">Order Date</p>
 
-                      <p class="fmon fs8">11/3/23</p>
+                      <p class="fmon fs8 m-0">11/3/23</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Medicine</p>
+                      <p class="fmon fs7 m-0">Medicine</p>
 
-                      <p class="fmon fs8">Panadol</p>
+                      <p class="fmon fs8 m-0">Panadol</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Status</p>
+                      <p class="fmon fs7 m-0">Status</p>
 
-                      <p class="fmon fs8">active</p>
+                      <p class="fmon fs8 m-0">active</p>
                     </div>
                   </div>
                   <div class="mt-2 d-flex justify-content-end">
@@ -916,7 +919,7 @@
             </div>
             <div class="col-md-4 my-2">
               <div class="card p-2 oCard">
-                <div class="my-2">
+                <div class="m-2">
                   <div class="d-flex">
                     <img
                       src="./assets/images/avatars/04.png"
@@ -930,19 +933,19 @@
                   </div>
                   <div class="mt-3">
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Order Date</p>
+                      <p class="fmon fs7 m-0">Order Date</p>
 
-                      <p class="fmon fs8">11/3/23</p>
+                      <p class="fmon fs8 m-0">11/3/23</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Medicine</p>
+                      <p class="fmon fs7 m-0">Medicine</p>
 
-                      <p class="fmon fs8">Panadol</p>
+                      <p class="fmon fs8 m-0">Panadol</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                      <p class="fmon fs7">Status</p>
+                      <p class="fmon fs7 m-0">Status</p>
 
-                      <p class="fmon fs8">active</p>
+                      <p class="fmon fs8 m-0">active</p>
                     </div>
                   </div>
                   <div class="mt-2 d-flex justify-content-end">
@@ -978,7 +981,7 @@
                     aria-label="Close"
                   ></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body pt-0">
                   <p class="text-center fpop fs10">Creat Order</p>
                   <div class="my-2 row">
                     <div class="col-md-6 my-2">
@@ -1057,14 +1060,18 @@
                     </div>
                     <div class="col-md-6 my-2">
                       <label class="fmon fs9" for="fname">Select Doctor</label>
-                      <select class="form-select mInp">
+                    <div class="oCard fselect w-100">
+                      <select class="form-select fInp bg-transparent">
                         <option value="">select</option>
                       </select>
                     </div>
+
+                    </div>
+                    </div>
                     <div class="col-md-12 my-2">
                       <div class="row">
-                        <div class="col-md-10 my-1">
-                          <div class="mInp d-flex justify-content-between">
+                        <div class="col-md-11 my-1" id="InpCon">
+                          <div class="mInp d-flex justify-content-between my-1">
                             <input
                               type="text"
                               name=""
@@ -1087,8 +1094,8 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-2 my-1">
-                          <button class="oCard btn aBtn">
+                        <div class="col-md-1 my-1">
+                          <button class="oCard btn aBtn" id="addBtn">
                             <img
                               src="./assets/images/megaIcons/addb.png"
                               alt=""
@@ -1123,32 +1130,33 @@
               <div class="modal-content bg-m rounded-0">
                 <div class="modal-body">
                   <div class="my-2 d-flex justify-content-between">
-                    <div>
+                    <div class="d-flex">
                       <img
                         src="./assets/images/avatars/av4.png"
                         alt="image"
                         width="150px"
                         class="rounded-0"
                       />
-                    </div>
-                    <div>
-                      <p class="fmon fs11">Cameron Williamson</p>
-                      <p class="fmon fs12">Patient Id:25dfs48</p>
-                      <div class="d-flex">
-                        <img
-                          src="./assets/images/avatars/04.png"
-                          alt=""
-                          width="50px"
-                          height="50px"
-                        />
-                        <div class="mx-2">
-                          <p class="fmon fs8 m-0 text-start">Davson</p>
-                          <p class="fmon fs13 m-0 text-start">
-                            Mdicine Reciever
-                          </p>
+                      <div class="ms-2">
+                        <p class="fmon fs11">Cameron Williamson</p>
+                        <p class="fmon fs12">Patient Id:25dfs48</p>
+                        <div class="d-flex">
+                          <img
+                            src="./assets/images/avatars/04.png"
+                            alt=""
+                            width="50px"
+                            height="50px"
+                          />
+                          <div class="mx-2">
+                            <p class="fmon fs8 m-0 m-0 text-start fw-bold">Davson</p>
+                            <p class="fmon fs13 m-0 text-start fw-bold">
+                              Mdicine Reciever
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
+                   
                     <div>
                       <button
                         type="button"
@@ -1185,7 +1193,7 @@
                     </div>
                   </div>
                   <div class="row my-2">
-                    <p>List of Medicines</p>
+                    <p class="m-0 fw-bold">List of Medicines</p>
                     <div class="my-2 col-md-12">
                       <div
                         class="oCard d-flex justify-content-between align-items-center p-1"
@@ -1221,7 +1229,7 @@
                           alt=""
                           class="fimg"
                         />
-                        <select name="" id="" class="form-select fselect">
+                        <select name="" id="" class="form-select  bg-transparent fsl">
                           <option value="">Cameron Williamson</option>
                         </select>
                       </div>
@@ -1254,6 +1262,13 @@
     <script src="assets/plugins/metismenu/metisMenu.min.js"></script>
     <script src="assets/js/index2.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      document.getElementById("addBtn").addEventListener("click", function() {
+  var clone = document.querySelector("#InpCon .mInp").cloneNode(true);
+  document.getElementById("InpCon").appendChild(clone);
+});
+
+    </script>
   </body>
 
   <!-- Mirrored from codervent.com/matoxi/demo/vertical-menu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jan 2024 16:36:47 GMT -->
