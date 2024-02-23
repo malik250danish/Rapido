@@ -1526,3 +1526,12 @@ td .oCard {
   box-shadow: none;
   border: 0px solid transparent;
 }
+
+table td {
+  text-align: start;
+}
+
+.borderCustom {
+  border: 1px solid #fff;
+  padding: 0 !important;
+}
