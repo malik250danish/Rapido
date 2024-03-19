@@ -1404,8 +1404,8 @@ div.dt-container .dt-paging .dt-paging-button {
 }
 
 .pInp {
-  background-color: #F8EEEE;
-  border: 1px solid #fff;
+  background-color: #F9E5E5 !important;
+  border: 1px solid #fff !important;
 }
 
 .pInp:focus {
